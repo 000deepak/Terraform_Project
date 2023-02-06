@@ -46,7 +46,7 @@ terraform --version
 1. Go to roles
 2. create new role
 3. select AWS Services and use case EC2.
-4. Permission Policies EC2 Full Access & ADMNISTRATOR ACCESS
+4. Permission Policies AMAZONEC2FULLACCESS & AdministratorAccess
 
 > Assign this role to ec2
 * Now go to instance -> actions -> security -> modifyIAM -> choose role we have created -> update IAM role
