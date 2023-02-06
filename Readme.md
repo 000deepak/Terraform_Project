@@ -39,7 +39,7 @@ terraform --version
 
 ## Create DynamoDB able
 1. go to create tables and give name same as given in backend.tf file
-2. give partion key as lockId of type string, create table
+2. give partion key as LockID(spelling & case IMP) of type string, create table
 
 ## IAM Role
 > we have to give access key and secret key for terraform for creating infrastruture, Here will create role and assign to 
@@ -81,8 +81,9 @@ sudo systemctl status jenkins
 ## Jenkin Pipelins
 1. new item of type pipeline
 2. parametrized project -> 
-a. apply
-b. destory
+* 0. action (this is given dynamically in Action Tab)
+* a. apply
+* b. destory
 3. copy the pipeline code from jenkin file and paster
 
 ## FINAL
